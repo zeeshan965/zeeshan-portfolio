@@ -152,12 +152,13 @@ const educationInfo = {
       schoolName: "University of Management & Technology",
       logo: require("./assets/images/umt.png"),
       subHeader: "Master of Science in Computer Science",
-      duration: "September 2013 - April 2015"
-      // desc: "Participated in the research of XXX and published 3 papers.",
-      // descBullets: [
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      // ]
+      duration: "September 2013 - April 2015",
+      descBullets: [
+        "Computer Programming",
+        "Data Structures",
+        "Databases",
+        "Software Project Mangement"
+      ]
     }
     // {
     //   schoolName: "Stanford University",
@@ -177,16 +178,16 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "65%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "98%"
+      progressPercentage: "90%"
     },
     {
-      Stack: "Full stack",
-      progressPercentage: "90%"
-    }
+      Stack: "Database",
+      progressPercentage: "75%"
+    },
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -200,55 +201,51 @@ const workExperiences = {
       role: "Technical Team Lead",
       company: "Jeeny",
       companylogo: require("./assets/images/jeeny.png"),
-      date: "August 2021 – Present",
-      desc: "I started working in Jeeny as Technical Team Lead, My responsibilities were to build APIs from scratch, Integrate 3rd party payment systems, wallets, etc. Brainstorm the design, architecture, and development of upcoming features with the team."
-      // descBullets: [
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      // ]
+      desc: "Jeeny, a Middle Eastern mobile app, offers integrated services like ride-hailing, wallet transactions, and more. Specifically designed to meet daily consumer needs in the Middle East.",
+      descBullets: [
+        "Designed architecture for new features and micro-services.",
+        "Actively participated in development tasks, including building APIs from scratch and integrating third-party payment systems and wallets.",
+        "Collaborated with the team to brainstorm and plan the design, architecture, and development of upcoming features.",
+        "Reviewed ongoing sprints and planned new sprints with the product team.",
+        "Implemented a pull request mechanism for staging and production, managed by Jenkins.",
+      ],
+      skills: "<b>Skills: </b> · PHP · Laravel · Symfony · Silex · Node · Express · React · JWT · REST APIs · MySQL · MongoDB · AWS · Jenkins"
     },
     {
       role: "Lead Developer",
       company: "Purelogics",
       companylogo: require("./assets/images/pl.jpeg"),
-      date: "April 2019 – july 2021",
-      desc: "I worked here as a senior LAMP stack, MEAN stack developer. I am involved in every phase of the software development lifecycle as a full stack developer i.e. from brainstorming to architecture design and then development of the application. As a team, we have developed a product for one of our clients using lead tech stack available in the market i.e, Laravel 7.0, Vue.JS 2.0, Angular 9, ExpressJS Node, CDN using WebPack, AWS services, etc."
+      desc: "PureLogics is a global technology company specializing in developing top-notch web and mobile applications across diverse domains, including LAMP, Android, iOS, MEAN, and Amazon Web Services.",
+      descBullets: [
+        "Worked as a senior developer specializing in LAMP and MEAN stacks.",
+        "Engaged in all phases of the software development lifecycle as a full stack developer, from brainstorming to architecture design and application development.",
+        "Collaborated with a team to create a product for a client using leading technologies, including Laravel 7.0, Vue 3.0, Angular 9, ExpressJS Node, CDN with WebPack, and AWS services.",
+      ],
+      skills: "<b>Skills: </b> · Node · Express · PHP · Laravel · Vue 2 · Angular 8 · Vanilla JS · WebPack · jQuery · MySQL · AWS"
     },
-    {
+    /*{
       role: "Full Stack Developer",
-      company: "Miranz Technologies",
-      companylogo: require("./assets/images/mirnaz.jpeg"),
-      date: "Dec 2018 – March 2019",
-      desc: "Miranz provides solutions in the blockchain domain. Their expertise is Blockchain Development Services. I worked here as a Full Stack Developer, developing apps front end in Vue.JS and developed API in Laravel 5.7."
-    },
-    {
-      role: "Software Engineer (PHP)",
-      company: "TV2U",
-      companylogo: require("./assets/images/tv2u.jpeg"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer (PHP)",
-      company: "PureLogics",
-      companylogo: require("./assets/images/pl.jpeg"),
-      date: "Oct 2017 – Sept 2018",
-      desc: "At PureLogics, I served as a Back End developer with responsibilities that encompassed debugging, enhancing, and building web and mobile applications. I focused on maintaining existing projects, introducing new features, and developing dynamic applications from scratch using CodeIgniter and Laravel. My role also entailed optimizing these solutions, ensuring their efficiency and performance met global standards."
-    },
+      company: "",
+      companylogo: require("./assets/images/kwanso_logo.jpeg"),
+      // date: "Dec 2018 – March 2019",
+      desc: "Kwanso, a design and development consultancy, transforms product ideas into reality.",
+      skills: ""
+    },*/
     {
       role: "Full Stack Developer",
       company: "Contegris",
       companylogo: require("./assets/images/Contegris.png"),
-      date: "July 2016 – Oct 2017",
-      desc: "I develop different business solutions using leading technologies,frameworks, plugins, libraries. My responsibility was building dynamic applications using CodeIgniter,Laravel & Angular framework. PHP Backend Implementation Responsive Testing, System Testing, Database Management."
+      // date: "July 2016 – Oct 2017",
+      desc: "Contegris provide Unified Communication Solutions, Telecom & ISP Solutions, Contact Center Solutions, Help Desk Software, Omnichannel, and Technology Solutions to the industry.",
+      descBullets: [
+        "Develop various business solutions using leading technologies, frameworks, plugins, and libraries.",
+        "Build dynamic applications with a focus on CodeIgniter, Laravel, and Angular frameworks.",
+        "Implement PHP backend functionality, ensuring responsiveness, and conducting system testing.",
+        "Manage databases associated with the applications."
+      ],
+      skills: "<b>Skills: </b> · PHP · Laravel · Codeigniter · Angular 2 · Vanilla JS · Javascript · jQuery · MySQL"
     },
-    {
-      role: "Front End Engineer",
-      company: "Emenac Inc.",
-      companylogo: require("./assets/images/Emenac.jpeg"),
-      date: "Jan 2016 – July 2016",
-      desc: "Emenac has been the leading BPO, consulting, technology, and software group and one of the most financially stable companies in the BPO field. I worked their as UI Developer, My responsibility was to convert PSD to HTML, HTML5/CSS3/JS/jQuery, Front End Development, WordPress."
-    }
+
   ]
 };
 
@@ -401,49 +398,22 @@ const achievementSection = {
       subtitle:
         "Basic php learning to advance php. Starting from front end to backend.Procedural php to advance oop implementations and mvc architecture base coding. It includes HTM5L/CSS3/JS/Jquery, php, Mysql.",
       image: require("./assets/images/evs.png"),
-      imageAlt: "Google Code-In Logo",
+      imageAlt: "EVS Logo",
       footerLink: [
-        {
-          name: "Certification"
-          // url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+        /*{
+          name: "Certification",
+          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
         },
         {
-          name: "Award Letter"
-          // url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        }
-        // {
-        //   name: "Google Code-in Blog",
-        //   url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        // }
+          name: "Award Letter",
+          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+        },
+        {
+          name: "Google Code-in Blog",
+          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+        }*/
       ]
     },
-    {
-      title: "EOM",
-      subtitle:
-        "A standout employee at Purelogics LLC has earned the Employee of the Month Award an impressive 3 times, showcasing their exceptional dedication and invaluable contributions to the company..",
-      image: require("./assets/images/pure.png"),
-      imageAlt: "Employee of the Month",
-      footerLink: [
-        {
-          name: "Employee of the Month"
-          // url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    }
-
-    // {
-    //   title: "PWA Web App Developer",
-    //   subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-    //   image: require("./assets/images/pwaLogo.webp"),
-    //   imageAlt: "PWA Logo",
-    //   footerLink: [
-    //     {name: "Certification", url: ""},
-    //     {
-    //       name: "Final Project",
-    //       url: "https://pakistan-olx-1.firebaseapp.com/"
-    //     }
-    //   ]
-    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
