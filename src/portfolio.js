@@ -22,9 +22,7 @@ const illustration = {
 const greeting = {
   username: "Zeeshan Iqbal",
   title: "Hi all, I'm Zeeshan",
-  subTitle: emoji(
-    " Coming from a versatile background 🌟 of extensive problem-solving competitions, I have successfully maintained a solid portfolio 💼 in Web App Development. Over the past 7️⃣ years, I led half a dozen projects 🚀 from inception to completion, showcasing my prowess in the field."
-  ),
+  subTitle: emoji("A seasoned full-stack software developer 🚀 with a track record of turning abstract ideas💡into fully realized web applications. With over 7️⃣ years of experience in web development and a background in problem-solving competitions, I bring a unique blend of skills and innovation to your projects."),
   resumeLink:
     "https://drive.google.com/file/d/1C06QPv39w0-u1vEQLuNnLDoaGmFOLE47/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -49,15 +47,12 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Enthusiastic full-stack developer eager to delve into a diverse range of technology stacks.",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Extensive experience in building responsive and user-friendly interfaces with expertise in front-end frameworks such as React, Angular, and Vue."),
+    emoji("⚡ Well-versed in server-side scripting and backend development, proficient in utilizing PHP and Node.js languages, and leveraging their respective Laravel, Symfony, Express, and Nest frameworks to ensure seamless functionality."),
+    emoji("⚡ Experienced in cloud computing and deployment using AWS, Docker, and continuous integration tools like Jenkins for streamlined and scalable applications."),
+    emoji("⚡ Integration proficiency extends to third-party services, including payment gateways like Stripe and PayPal, enhancing e-commerce and transactional functionalities.")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -77,52 +72,16 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-sass"
     },
     {
+      skillName: "Bootstrap",
+      fontAwesomeClassname: "fab fa-bootstrap"
+    },
+    {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
+      skillName: "React",
       fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    },
-    {
-      skillName: "Php",
-      fontAwesomeClassname: "fab fa-php"
-    },
-    {
-      skillName: "Laravel",
-      fontAwesomeClassname: "fab fa-laravel"
     },
     {
       skillName: "Angular",
@@ -133,13 +92,53 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-vuejs"
     },
     {
-      skillName: "Bootstrap",
-      fontAwesomeClassname: "fab fa-bootstrap"
+      skillName: "npm",
+      fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "Wordpress",
-      fontAwesomeClassname: "fab fa-wordpress"
-    }
+      skillName: "Php",
+      fontAwesomeClassname: "fab fa-php"
+    },
+    {
+      skillName: "Symfony",
+      fontAwesomeClassname: "fab fa-symfony"
+    },
+    {
+      skillName: "Laravel",
+      fontAwesomeClassname: "fab fa-laravel"
+    },
+    {
+      skillName: "Node",
+      fontAwesomeClassname: "fab fa-node"
+    },
+    {
+      skillName: "AWS",
+      fontAwesomeClassname: "fab fa-aws"
+    },
+    {
+      skillName: "Docker",
+      fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-github"
+    },
+    {
+      skillName: "BitBucket",
+      fontAwesomeClassname: "fab fa-bitbucket"
+    },
+    {
+      skillName: "Stripe",
+      fontAwesomeClassname: "fab fa-stripe"
+    },
+    {
+      skillName: "Paypal",
+      fontAwesomeClassname: "fab fa-paypal"
+    },
+    {
+      skillName: "Jenkins",
+      fontAwesomeClassname: "fab fa-jenkins"
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
