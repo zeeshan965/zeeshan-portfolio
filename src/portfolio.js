@@ -264,18 +264,6 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/emenac.webp"),
-      projectName: "Emenac Packaging",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Emenac Packaging",
-          url: "https://www.emenacpackaging.com/"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
-    {
       image: require("./assets/images/intelli.jpeg"),
       projectName: "Intellicon",
       projectDesc:
@@ -284,28 +272,6 @@ const bigProjects = {
         {
           name: "Intellicon",
           url: "https://www.intellicon.io/"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/Yovo-simple-logo.png"),
-      projectName: "Yovo",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Yovo",
-          url: "https://www.yovo.pk/"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/daz.jpeg"),
-      projectName: "Dazlab",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Dazlab",
-          url: "https://dazlab.global/"
         }
       ]
     },
@@ -489,7 +455,7 @@ const twitterDetails = {
   display: true // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
