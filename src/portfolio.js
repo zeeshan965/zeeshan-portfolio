@@ -264,10 +264,58 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/intelli.jpeg"),
+      image: require("./assets/images/jeentt.jpeg"),
+      projectName: "Jeeny",
+      projectDesc:
+        " A Middle East ride-hailing app powered by a diverse tech stack including Symfony, Express, React, MySQL, Mongo, and AWS.",
+      footerLink: [
+        {
+          name: "Jeeny",
+          url: "https://jeeny.me/en/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/crm.jpeg"),
+      projectName: "CRM Newrich",
+      projectDesc:
+        "A robust customer relationship management (CRM) solution developed with Laravel and MySQL for efficient management and enhanced customer interactions.",
+      footerLink: [
+        {
+          name: "CRM Newrich",
+          url: "https://crm.newrich.com/login"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/download.png"),
+      projectName: "Think Native",
+      projectDesc:
+        "A Community Engagement Platform utilizing Laravel, Vue.JS, Angular, and AWS to empower human service providers and nonprofits with outcome-focused virtual services.",
+      footerLink: [
+        {
+          name: "Thinknative",
+          url: "https://www.thinknative.com/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/ca.jpeg"),
+      projectName: "Coach Analysis",
+      projectDesc:
+        "Coach Analysis is a sports platform facilitating digital communication for coaches/clubs with teams and players. Developed with Next.js and TypeScript, backed by Laravel 10. AWS S3 handles storage, Stripe manages payments. The app supports video streaming, analysis, and reporting for coaches and teams.",
+      footerLink: [
+        {
+          name: "Thinknative",
+          url: "https://www.thinknative.com/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/intellicon.png"),
       projectName: "Intellicon",
       projectDesc:
-        "A customer-centric Contact Center solution integrating CodeIgniter, Laravel, Angular2, and MySQL to elevate customer service experiences.",
+        "A customer-centric Contact Center solution integrating Codeigniter, Laravel, Angular2, and MySQL to elevate customer service experiences.",
       footerLink: [
         {
           name: "Intellicon",
@@ -275,7 +323,7 @@ const bigProjects = {
         }
       ]
     },
-    {
+    /*{
       image: require("./assets/images/toolbox.jpeg"),
       projectName: "The Toolbox Team",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -285,19 +333,7 @@ const bigProjects = {
           url: "https://thetoolboxteam.com.au/"
         }
       ]
-    },
-    {
-      image: require("./assets/images/sp.png"),
-      projectName: "Shufti Pro",
-      projectDesc:
-        "A fraud prevention service leveraging Laravel, Vue.JS, Stripe, and MySQL for seamless digital KYC verification and rapid background checks in under 60 seconds.",
-      footerLink: [
-        {
-          name: "Shufti Pro",
-          url: "https://shuftipro.com//"
-        }
-      ]
-    },
+    },*/
     {
       image: require("./assets/images/ozbon.jpeg"),
       projectName: "Ozbon.ng",
@@ -310,42 +346,9 @@ const bigProjects = {
         }
       ]
     },
-    {
-      image: require("./assets/images/crm.jpeg"),
-      projectName: "CRM Newrich",
-      projectDesc:
-        "A robust customer relationship management (CRM) solution developed with Laravel and MySQL for efficient management and enhanced customer interactions.",
-      footerLink: [
-        {
-          name: "crm.newrich",
-          url: "https://crm.newrich.com/login"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/thinknative.webp"),
-      projectName: "Think Native",
-      projectDesc:
-        "A Community Engagement Platform utilizing Laravel, Vue.JS, Angular, and AWS to empower human service providers and nonprofits with outcome-focused virtual services.",
-      footerLink: [
-        {
-          name: "thinknative",
-          url: "https://www.thinknative.com/"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/jeentt.jpeg"),
-      projectName: "jeeny",
-      projectDesc:
-        " A Middle East ride-hailing app powered by a diverse tech stack including Symfony, Express, React, MySQL, Mongo, and AWS.",
-      footerLink: [
-        {
-          name: "jeeny.me",
-          url: "https://jeeny.me/ar/"
-        }
-      ]
-    }
+
+
+
   ],
   display: true // Set false to hide this section, defaults to true
 };
