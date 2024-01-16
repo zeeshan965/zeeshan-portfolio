@@ -306,7 +306,7 @@ const bigProjects = {
         "Coach Analysis is a sports platform facilitating digital communication for coaches/clubs with teams and players. Developed with Next.js and TypeScript, backed by Laravel 10. AWS S3 handles storage, Stripe manages payments. The app supports video streaming, analysis, and reporting for coaches and teams.",
       footerLink: [
         {
-          name: "Thinknative",
+          name: "Coach Analysis",
           url: "https://www.thinknative.com/"
         }
       ]
