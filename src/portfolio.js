@@ -307,7 +307,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Coach Analysis",
-          url: "https://www.thinknative.com/"
+          url: ""
         }
       ]
     },
