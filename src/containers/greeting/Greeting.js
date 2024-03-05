@@ -39,6 +39,11 @@ export default function Greeting() {
               </p>
               <SocialMedia />
               <div className="button-greeting-div">
+                <Button
+                  text="Hire Me on Upwork"
+                  newTab={true}
+                  href="https://www.upwork.com/freelancers/zeeshaniqbal965"
+                />
                 <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (
                   <Button

@@ -24,7 +24,7 @@ const greeting = {
   title: "Hi all, I'm Zeeshan",
   subTitle: emoji("A seasoned full-stack software developer 🚀 with a track record of turning abstract ideas💡into fully realized web applications. With over 7️⃣ years of experience in web development and a background in problem-solving competitions, I bring a unique blend of skills and innovation to your projects."),
   resumeLink:
-    "https://drive.google.com/file/d/1C06QPv39w0-u1vEQLuNnLDoaGmFOLE47/view?usp=drive_link", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1TORd-dvK56FlhLkiMQ9Ajxfm5k5HtMUd/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -260,8 +260,8 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "Some of the Clients I’ve Worked with",
   projects: [
     {
       image: require("./assets/images/jeentt.jpeg"),
