@@ -31,7 +31,7 @@ export default function Skills() {
           <div className="skills-text-div">
             <h1
               className={
-                isDark ? "dark-mode skills-heading py-5" : "skills-heading py-5"
+                isDark ? "dark-mode skills-heading" : "skills-heading"
               }
             >
               {skillsSection.title}{" "}
@@ -39,8 +39,8 @@ export default function Skills() {
             <p
               className={
                 isDark
-                  ? "dark-mode subTitle skills-text-subtitle pb-5"
-                  : "subTitle skills-text-subtitle pb-5"
+                  ? "dark-mode subTitle skills-text-subtitle"
+                  : "subTitle skills-text-subtitle"
               }
             >
               {skillsSection.subTitle}

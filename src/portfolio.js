@@ -495,17 +495,6 @@ export const portfolioConstant = [
     subModal2:
       "t also has a Backend Admin Panel to manage everything. Built on Laravel 9, React, Paypal, Mysql, HTML, and CSS.",
     img: "/images/pro1.png",
-    images: [
-      {img: "/images/pro1.png", title: "HOME"},
-      {img: "/images/pro011.png", title: "SIGN-UP"},
-      {img: "/images/pro0112.png", title: "ALBUMS"},
-      {img: "/images/pro0113.png", title: "VIDEO"},
-      {img: "/images/pro0114.png", title: "PAYMENT"},
-      {img: "/images/pro0115.png", title: "PAYMENT VIA DEBIT CARD"},
-      {img: "/images/pro0116.png", title: "CONTACT US"},
-      {img: "/images/pro0117.png", title: "STORE"}
-    ],
-    link: "",
     skill: ["Laravel", "React", "Paypal", "MySQL", "HTML", "CSS"]
   },
   {
@@ -516,21 +505,7 @@ export const portfolioConstant = [
     subModal:
       "The Gestr platform was created to build communities and networks. Our platform makes planning and organizing in a group and enabling charitable work and volunteering simply. The platform was built on Laravel 8, Laravel Breeze, Mysql 8, and Calendar JS..",
     subModal2: "",
-    img: "/images//pro2.png",
-    images: [
-      {img: "/images//g1.png", title: "HOME"},
-      {img: "/images/g2.png", title: "DASHBOARD"},
-      {img: "/images/g3.png", title: "QUICK TIPS"},
-      {img: "/images/g4.png", title: "INFORMATION"},
-      {img: "/images/g5.png", title: "CALENDAR VIEW -1"},
-      {img: "/images/g6.png", title: "CALENDAR VIEW -2"},
-      {img: "/images/g7.png", title: "INVITE"},
-      {img: "/images/g8.png", title: "INVITE OTHERS"},
-      {img: "/images/g9.png", title: "MEMBERSHIP PLAN"},
-      {img: "/images/g10.png", title: "UPDATE"},
-      {img: "/images/g11.png", title: "STORE"},
-      {img: "/images/g12.png", title: "CONFIRMATION"}
-    ],
+    img: "/images/pro2.png",
     skill: ["Laravel", " Breeze", " MySQL", "JavaScript"],
     link: "https://gestr.co.uk/"
   },
