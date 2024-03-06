@@ -37,10 +37,8 @@ export default function Greeting() {
               >
                 {greeting.subTitle}
               </p>
-              <div className="pt-5">
-                <SocialMedia />
-              </div>
-              <div className="flex flex-wrap">
+              <SocialMedia />
+              <div className="button-greeting-div">
                 <Button
                   text="Hire Me on Upwork"
                   newTab={true}
