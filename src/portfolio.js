@@ -22,7 +22,8 @@ const illustration = {
 const greeting = {
   username: "Zeeshan Iqbal",
   title: "Hi all, I'm Zeeshan",
-  subTitle: emoji("A seasoned full-stack software developer 🚀 with a track record of turning abstract ideas💡into fully realized web applications. With over 7️⃣ years of experience in web development and a background in problem-solving competitions, I bring a unique blend of skills and innovation to your projects."),
+  subTitle:
+    "A seasoned full-stack software developer 🚀 with a track record of turning abstract ideas💡into fully realized web applications. With over 7️⃣ years of experience in web development and a background in problem-solving competitions, I bring a unique blend of skills and innovation to your projects.",
   resumeLink:
     "https://drive.google.com/file/d/1TORd-dvK56FlhLkiMQ9Ajxfm5k5HtMUd/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -34,6 +35,7 @@ const socialMediaLinks = {
   github: "https://github.com/zeeshan965",
   linkedin: "https://www.linkedin.com/in/zeeshan-iqbal-99a15a75/",
   gmail: "zeeshanbutt223@gmail.com",
+  whatsapp: "https://wa.me/+923454771299",
   // gitlab: "https://gitlab.com/saadpasta",
   // facebook: "https://www.facebook.com/saad.pasta7",
   // medium: "https://medium.com/@saadpasta",
@@ -47,12 +49,13 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Enthusiastic full-stack developer eager to delve into a diverse range of technology stacks.",
+  subTitle:
+    "Enthusiastic full-stack developer eager to delve into a diverse range of technology stacks.",
   skills: [
-    emoji("⚡ Extensive experience in building responsive and user-friendly interfaces with expertise in front-end frameworks such as React, Angular, and Vue."),
-    emoji("⚡ Well-versed in server-side scripting and backend development, proficient in utilizing PHP and Node.js languages, and leveraging their respective Laravel, Symfony, Express, and Nest frameworks to ensure seamless functionality."),
-    emoji("⚡ Experienced in cloud computing and deployment using AWS, Docker, and continuous integration tools like Jenkins for streamlined and scalable applications."),
-    emoji("⚡ Integration proficiency extends to third-party services, including payment gateways like Stripe and PayPal, enhancing e-commerce and transactional functionalities.")
+    "⚡ Extensive experience in building responsive and user-friendly interfaces with expertise in front-end frameworks such as React, Angular, and Vue.",
+    "⚡ Well-versed in server-side scripting and backend development, proficient in utilizing PHP and Node.js languages, and leveraging their respective Laravel, Symfony, Express, and Nest frameworks to ensure seamless functionality.",
+    "⚡ Experienced in cloud computing and deployment using AWS, Docker, and continuous integration tools like Jenkins for streamlined and scalable applications.",
+    "⚡ Integration proficiency extends to third-party services, including payment gateways like Stripe and PayPal, enhancing e-commerce and transactional functionalities."
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -138,7 +141,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Jenkins",
       fontAwesomeClassname: "fab fa-jenkins"
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -187,7 +190,7 @@ const techStack = {
     {
       Stack: "Database",
       progressPercentage: "75%"
-    },
+    }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -207,9 +210,10 @@ const workExperiences = {
         "Actively participated in development tasks, including building APIs from scratch and integrating third-party payment systems and wallets.",
         "Collaborated with the team to brainstorm and plan the design, architecture, and development of upcoming features.",
         "Reviewed ongoing sprints and planned new sprints with the product team.",
-        "Implemented a pull request mechanism for staging and production, managed by Jenkins.",
+        "Implemented a pull request mechanism for staging and production, managed by Jenkins."
       ],
-      skills: "<b>Skills: </b> · PHP · Laravel · Symfony · Silex · Node · Express · React · JWT · REST APIs · MySQL · MongoDB · AWS · Jenkins"
+      skills:
+        "<b>Skills: </b> · PHP · Laravel · Symfony · Silex · Node · Express · React · JWT · REST APIs · MySQL · MongoDB · AWS · Jenkins"
     },
     {
       role: "Lead Developer",
@@ -219,9 +223,10 @@ const workExperiences = {
       descBullets: [
         "Worked as a senior developer specializing in LAMP and MEAN stacks.",
         "Engaged in all phases of the software development lifecycle as a full stack developer, from brainstorming to architecture design and application development.",
-        "Collaborated with a team to create a product for a client using leading technologies, including Laravel 7.0, Vue 3.0, Angular 9, ExpressJS Node, CDN with WebPack, and AWS services.",
+        "Collaborated with a team to create a product for a client using leading technologies, including Laravel 7.0, Vue 3.0, Angular 9, ExpressJS Node, CDN with WebPack, and AWS services."
       ],
-      skills: "<b>Skills: </b> · Node · Express · PHP · Laravel · Vue 2 · Angular 8 · Vanilla JS · WebPack · jQuery · MySQL · AWS"
+      skills:
+        "<b>Skills: </b> · Node · Express · PHP · Laravel · Vue 2 · Angular 8 · Vanilla JS · WebPack · jQuery · MySQL · AWS"
     },
     /*{
       role: "Full Stack Developer",
@@ -243,9 +248,9 @@ const workExperiences = {
         "Implement PHP backend functionality, ensuring responsiveness, and conducting system testing.",
         "Manage databases associated with the applications."
       ],
-      skills: "<b>Skills: </b> · PHP · Laravel · Codeigniter · Angular 2 · Vanilla JS · Javascript · jQuery · MySQL"
-    },
-
+      skills:
+        "<b>Skills: </b> · PHP · Laravel · Codeigniter · Angular 2 · Vanilla JS · Javascript · jQuery · MySQL"
+    }
   ]
 };
 
@@ -275,6 +280,32 @@ const bigProjects = {
         }
       ]
     },
+
+    {
+      image: require("./assets/images/download.png"),
+      projectName: "Think Native",
+      projectDesc:
+        "A Community Engagement Platform utilizing Laravel, Vue.JS, Angular, and AWS to empower human service providers and nonprofits with outcome-focused virtual services.",
+      footerLink: [
+        {
+          name: "Thinknative",
+          url: "https://www.thinknative.com/"
+        }
+      ]
+    },
+
+    {
+      image: require("./assets/images/intellicon.png"),
+      projectName: "Intellicon",
+      projectDesc:
+        "A customer-centric Contact Center solution integrating Codeigniter, Laravel, Angular2, and MySQL to elevate customer service experiences.",
+      footerLink: [
+        {
+          name: "Intellicon",
+          url: "https://www.intellicon.io/"
+        }
+      ]
+    },
     {
       image: require("./assets/images/crm.jpeg"),
       projectName: "CRM Newrich",
@@ -288,18 +319,6 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/download.png"),
-      projectName: "Think Native",
-      projectDesc:
-        "A Community Engagement Platform utilizing Laravel, Vue.JS, Angular, and AWS to empower human service providers and nonprofits with outcome-focused virtual services.",
-      footerLink: [
-        {
-          name: "Thinknative",
-          url: "https://www.thinknative.com/"
-        }
-      ]
-    },
-    {
       image: require("./assets/images/ca.jpeg"),
       projectName: "Coach Analysis",
       projectDesc:
@@ -308,18 +327,6 @@ const bigProjects = {
         {
           name: "Coach Analysis",
           url: "https://coach-page.vercel.app/"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/intellicon.png"),
-      projectName: "Intellicon",
-      projectDesc:
-        "A customer-centric Contact Center solution integrating Codeigniter, Laravel, Angular2, and MySQL to elevate customer service experiences.",
-      footerLink: [
-        {
-          name: "Intellicon",
-          url: "https://www.intellicon.io/"
         }
       ]
     },
@@ -345,10 +352,7 @@ const bigProjects = {
           url: "https://ozbon.ng/"
         }
       ]
-    },
-
-
-
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -357,7 +361,7 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: "Achievements And Certifications 🏆 ",
   subtitle:
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
@@ -382,7 +386,7 @@ const achievementSection = {
           url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
         }*/
       ]
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -444,7 +448,7 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: "Contact Me ☎️",
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+923454771299",
@@ -479,3 +483,152 @@ export {
   twitterDetails,
   isHireable
 };
+
+export const portfolioConstant = [
+  {
+    titleCard: "Music Store",
+    subCard:
+      "A simple Music Store app to buy or rent music audio/videos. It has a landing site for guests, Users can sign up and attach their payment information to buy items. ",
+    titleModal: "Music Store",
+    subModal:
+      "A simple Music Store app to buy or rent music audio/videos. It has a landing site for guests, Users can sign up and attach their payment information to buy items.",
+    subModal2:
+      "t also has a Backend Admin Panel to manage everything. Built on Laravel 9, React, Paypal, Mysql, HTML, and CSS.",
+    img: "/images/pro1.png",
+    images: [
+      {img: "/images/pro1.png", title: "HOME"},
+      {img: "/images/pro011.png", title: "SIGN-UP"},
+      {img: "/images/pro0112.png", title: "ALBUMS"},
+      {img: "/images/pro0113.png", title: "VIDEO"},
+      {img: "/images/pro0114.png", title: "PAYMENT"},
+      {img: "/images/pro0115.png", title: "PAYMENT VIA DEBIT CARD"},
+      {img: "/images/pro0116.png", title: "CONTACT US"},
+      {img: "/images/pro0117.png", title: "STORE"}
+    ],
+    link: "",
+    skill: ["Laravel", "React", "Paypal", "MySQL", "HTML", "CSS"]
+  },
+  {
+    titleCard: "Gestr.uk",
+    subCard:
+      "The Gestr platform was created to build communities and networks. Our platform makes planning and organizing in a group and enabling charitable work and volunteering simply.The platform was built on Laravel 8, Laravel Breeze, Mysql 8, and Calendar JS.",
+    titleModal: "Gestr.uk",
+    subModal:
+      "The Gestr platform was created to build communities and networks. Our platform makes planning and organizing in a group and enabling charitable work and volunteering simply. The platform was built on Laravel 8, Laravel Breeze, Mysql 8, and Calendar JS..",
+    subModal2: "",
+    img: "/images//pro2.png",
+    images: [
+      {img: "/images//g1.png", title: "HOME"},
+      {img: "/images/g2.png", title: "DASHBOARD"},
+      {img: "/images/g3.png", title: "QUICK TIPS"},
+      {img: "/images/g4.png", title: "INFORMATION"},
+      {img: "/images/g5.png", title: "CALENDAR VIEW -1"},
+      {img: "/images/g6.png", title: "CALENDAR VIEW -2"},
+      {img: "/images/g7.png", title: "INVITE"},
+      {img: "/images/g8.png", title: "INVITE OTHERS"},
+      {img: "/images/g9.png", title: "MEMBERSHIP PLAN"},
+      {img: "/images/g10.png", title: "UPDATE"},
+      {img: "/images/g11.png", title: "STORE"},
+      {img: "/images/g12.png", title: "CONFIRMATION"}
+    ],
+    skill: ["Laravel", " Breeze", " MySQL", "JavaScript"],
+    link: "https://gestr.co.uk/"
+  },
+  {
+    titleCard: "Ozbon.ng",
+    subCard:
+      "Implement AdSense on the project and set where to show ads.There were many bugs in the Vue code, also resolve them. ",
+    titleModal: "Ozbon.ng",
+    subModal:
+      "Implement AdSense on the project and set where to show ads.There were many bugs in the Vue code, also resolve them.",
+    subModal2: "",
+    images: [{img: "/images/pro3.png", title: "HOMEPAGE"}],
+    img: "/images/pro3.png",
+    skill: [
+      "CodeIgniter",
+      "Vue.js",
+      "  PHP",
+      " MySQL",
+      "HTML",
+      "JavaScript",
+      "Bootstrap"
+    ],
+    link: "https://ozbon.ng/"
+  },
+  {
+    titleCard: "COACH ANALYSIS",
+    subCard:
+      "Coach Analysis is a platform for the sports industry where Coaches/Clubs can sign up to make digital communication with their teams and individual players. Mentoring the players using various features provided by the platform i.e., Videos, Highlights, Action logs, Comments/Feedback. App developed using Next.js and TypeScript, with Laravel 10 powering backend functionalities. ",
+    titleModal: "COACH ANALYSIS.",
+    subModal:
+      "Coach Analysis is a platform for the sports industry where Coaches/Clubs can sign up to make digital communication with their teams and individual players. Mentoring the players using various features provided by the platform i.e., Videos, Highlights, Action logs, Comments/Feedback. App developed using Next.js and TypeScript, with Laravel 10 powering backend functionalities.",
+    subModal2:
+      "Leveraging AWS S3 for seamless storage, Payments are managed by Stripe, It enables efficient video streaming, analysis, and insightful reporting for coaches and their teams. ",
+    img: "/images/pro4.png",
+    images: [
+      {img: "/images/c1.png", title: "Dashboard"},
+      {img: "/images/c2.png", title: "Manage Videos"},
+      {img: "/images/c3.png", title: "Categories"},
+      {img: "/images/c4.png", title: "Action Log"},
+      {img: "/images/c5.png", title: "Manage Teams"},
+      {img: "/images/c6.png", title: "Manage Highlights"},
+      {img: "/images/c7.png", title: "Upload/Add Video"},
+      {img: "/images/c8.png", title: "Manage Profiles"},
+      {img: "/images/c9.png", title: "Payments"},
+      {img: "/images/c10.png", title: "UPDATE"}
+    ],
+    skill: ["Next.js", "TypeScript", "Laravel", "AWS S3", "Stripe"],
+    link: ""
+  },
+
+  {
+    titleCard: "Thinknative",
+    subCard:
+      "A Community Engagement Platform utilizing Laravel, Vue.JS, Angular, and AWS to empower human service providers and nonprofits with outcome-focused virtual services.",
+    titleModal: "Thinknative",
+    subModal:
+      "A Community Engagement Platform utilizing Laravel, Vue.JS, Angular, and AWS to empower human service providers and nonprofits with outcome-focused virtual services.",
+
+    subModal2: " ",
+    img: "/images/think.png",
+    images: [
+      {img: "/images/think.png", title: "HOME"}
+      // { img: "/images/c2.png", title: "Manage Videos" },
+      // { img: "/images/c3.png", title: "Categories" },
+      // { img: "/images/c4.png", title: "Action Log" },
+      // { img: "/images/c5.png", title: "Manage Teams" },
+      // { img: "/images/c6.png", title: "Manage Highlights" },
+      // { img: "/images/c7.png", title: "Upload/Add Video" },
+      // { img: "/images/c8.png", title: "Manage Profiles" },
+      // { img: "/images/c9.png", title: "Payments" },
+      // { img: "/images/c10.png", title: "UPDATE" },
+    ],
+    skill: ["Next.js", "TypeScript", "Laravel", "AWS S3", "Stripe"],
+    link: ""
+  },
+  {
+    titleCard: "CRM Newrich",
+    subCard:
+      "A robust customer relationship management (CRM) solution developed with Laravel and MySQL for efficient management and enhanced customer interactions.",
+    titleModal: "CRM Newrich",
+    subModal:
+      "A robust customer relationship management (CRM) solution developed with Laravel and MySQL for efficient management and enhanced customer interactions.",
+
+    subModal2: " ",
+    img: "/images/crm.png",
+    images: [
+      {img: "/images/crm.png", title: "HOME"}
+      // { img: "/images/c2.png", title: "Manage Videos" },
+      // { img: "/images/c3.png", title: "Categories" },
+      // { img: "/images/c4.png", title: "Action Log" },
+      // { img: "/images/c5.png", title: "Manage Teams" },
+      // { img: "/images/c6.png", title: "Manage Highlights" },
+      // { img: "/images/c7.png", title: "Upload/Add Video" },
+      // { img: "/images/c8.png", title: "Manage Profiles" },
+      // { img: "/images/c9.png", title: "Payments" },
+      // { img: "/images/c10.png", title: "UPDATE" },
+    ],
+    skill: ["Laravel", "AWS S3", "Stripe"],
+    link: "https://crm.newrich.com/login"
+  }
+];

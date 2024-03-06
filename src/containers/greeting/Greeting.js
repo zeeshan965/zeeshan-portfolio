@@ -31,13 +31,15 @@ export default function Greeting() {
               <p
                 className={
                   isDark
-                    ? "dark-mode greeting-text-p"
-                    : "greeting-text-p subTitle"
+                    ? "dark-mode greeting-text-p "
+                    : "greeting-text-p subTitle "
                 }
               >
                 {greeting.subTitle}
               </p>
-              <SocialMedia />
+              <div className="pt-5">
+                <SocialMedia />
+              </div>
               <div className="button-greeting-div">
                 <Button
                   text="Hire Me on Upwork"

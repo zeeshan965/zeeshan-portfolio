@@ -30,15 +30,17 @@ export default function Skills() {
         <Fade right duration={1000}>
           <div className="skills-text-div">
             <h1
-              className={isDark ? "dark-mode skills-heading" : "skills-heading"}
+              className={
+                isDark ? "dark-mode skills-heading py-5" : "skills-heading py-5"
+              }
             >
               {skillsSection.title}{" "}
             </h1>
             <p
               className={
                 isDark
-                  ? "dark-mode subTitle skills-text-subtitle"
-                  : "subTitle skills-text-subtitle"
+                  ? "dark-mode subTitle skills-text-subtitle pb-5"
+                  : "subTitle skills-text-subtitle pb-5"
               }
             >
               {skillsSection.subTitle}

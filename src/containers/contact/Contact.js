@@ -18,8 +18,8 @@ export default function Contact() {
             <p
               className={
                 isDark
-                  ? "dark-mode contact-subtitle"
-                  : "subTitle contact-subtitle"
+                  ? "dark-mode contact-subtitle pt-8"
+                  : "subTitle contact-subtitle pt-8"
               }
             >
               {contactInfo.subtitle}

@@ -68,6 +68,9 @@
   background-color: $instagram;
 }
 
+.whatsapp i {
+  background-color: $whatsapp;
+}
 /* Hover Transition */
 .twitter i:hover,
 .google i:hover,
@@ -81,7 +84,9 @@
 .medium i:hover {
   background-color: $textColor;
 }
-
+.whatsapp i:hover {
+  background-color: $textColor;
+}
 /* Media Query */
 @media (max-width: 768px) {
   .social-media-div {
