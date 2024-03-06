@@ -40,7 +40,7 @@ export default function Greeting() {
               <div className="pt-5">
                 <SocialMedia />
               </div>
-              <div className="button-greeting-div">
+              <div className="flex flex-wrap">
                 <Button
                   text="Hire Me on Upwork"
                   newTab={true}
