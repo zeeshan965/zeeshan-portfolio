@@ -59,6 +59,7 @@ export default function StartupProject() {
                       {project.projectName}
                     </h5>
                     <p
+                    style={{height:"120px"}}
                       className={
                         isDark ? "dark-mode card-subtitle" : "card-subtitle"
                       }

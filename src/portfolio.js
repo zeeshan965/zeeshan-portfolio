@@ -307,7 +307,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/crm.jpeg"),
+      image: require("./assets/images/crm.png"),
       projectName: "CRM Newrich",
       projectDesc:
         "A robust customer relationship management (CRM) solution developed with Laravel and MySQL for efficient management and enhanced customer interactions.",
@@ -319,10 +319,10 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/ca.jpeg"),
+      image: require("./assets/images/coach.png"),
       projectName: "Coach Analysis",
       projectDesc:
-        "Coach Analysis is a sports platform facilitating digital communication for coaches/clubs with teams and players. Developed with Next.js and TypeScript, backed by Laravel 10. AWS S3 handles storage, Stripe manages payments. The app supports video streaming, analysis, and reporting for coaches and teams.",
+        "Coach Analysis: Next.js & TypeScript sports platform with Laravel 10. Streamlined digital communication for coaches, clubs, teams, and players. AWS S3 for efficient storage, Stripe for seamless payments.",
       footerLink: [
         {
           name: "Coach Analysis",
