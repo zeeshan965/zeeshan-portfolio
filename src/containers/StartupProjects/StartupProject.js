@@ -66,7 +66,7 @@ export default function StartupProject() {
                     >
                       {project.projectDesc}
                     </p>
-                    {project.footerLink ? (
+                    {/*{project.footerLink ? (
                       <div className="project-card-footer">
                         {project.footerLink.map((link, i) => {
                           return (
@@ -82,7 +82,7 @@ export default function StartupProject() {
                           );
                         })}
                       </div>
-                    ) : null}
+                    ) : null}*/}
                   </div>
                 </div>
               );
