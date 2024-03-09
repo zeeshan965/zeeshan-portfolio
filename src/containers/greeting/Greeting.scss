@@ -93,7 +93,12 @@
 }
 @media (max-width: 768px) {
   .button-greeting-div {
-    justify-content: space-around;
+    display: flex;
+    flex-direction: column; /* Display buttons vertically */
+    align-items: center;
+  }
+  .certificate-card{
+    width: auto !important;
   }
   .greeting-text {
     font-size: 30px;
