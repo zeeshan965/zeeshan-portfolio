@@ -203,7 +203,7 @@ const workExperiences = {
     {
       role: "Technical Team Lead",
       company: "Jeeny",
-      companylogo: require("./assets/images/jeeny.png"),
+      companylogo: require("./assets/images/jeeny-vr.png"),
       desc: "Jeeny, a Middle Eastern mobile app, offers integrated services like ride-hailing, wallet transactions, and more. Specifically designed to meet daily consumer needs in the Middle East.",
       descBullets: [
         "Designed architecture for new features and micro-services.",
@@ -269,7 +269,7 @@ const bigProjects = {
   subtitle: "Some of the Clients I’ve Worked with",
   projects: [
     {
-      image: require("./assets/images/jeentt.jpeg"),
+      image: require("./assets/images/jeeny.png"),
       projectName: "Jeeny",
       projectDesc:
         " A Middle East ride-hailing app powered by a diverse tech stack including Symfony, Express, React, MySQL, Mongo, and AWS.",
@@ -282,7 +282,7 @@ const bigProjects = {
     },
 
     {
-      image: require("./assets/images/download.png"),
+      image: require("./assets/images/tn.png"),
       projectName: "Think Native",
       projectDesc:
         "A Community Engagement Platform utilizing Laravel, Vue.JS, Angular, and AWS to empower human service providers and nonprofits with outcome-focused virtual services.",
